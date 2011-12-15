@@ -221,3 +221,7 @@ body.admin-bar #wpcontent, body.admin-bar #adminmenu {
 #poststuff #titlewrap {
 	margin-bottom:30px;
 }
+
+.screen-per-page {
+	width:60px;
+}
