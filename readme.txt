@@ -3,7 +3,7 @@ Contributors: brightonmike
 Tags: admin theme
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 3.3
+Stable tag: 1.1
 
 Coffee Admin Theme is a Wordpress dashboard theme which adjusts the look and feel of the dashboard.
 
