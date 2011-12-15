@@ -29,15 +29,15 @@ It's impossible for me to make sure the styles of this theme work with every plu
 
 == Screenshots ==
 
-1. Screenshot of the theme running under 3.3
+1. Screenshot of the theme
 
 == Changelog ==
 
 = 1.0 =
 
-* Updated the theme to work with the new Wordpress 3.3 menu.
+* Updated the theme to work with the new Wordpress 3.3 menu
 
 == Upgrade Notice ==
 
 = 1.0 =
-This version is compatible with the new Wordpress 3.3 menu.
+This version is compatible with the new Wordpress 3.3 menu
