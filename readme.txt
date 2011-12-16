@@ -27,6 +27,10 @@ This plugin only hooks into your dashboard, so if it causes problems with your i
 
 It's impossible for me to make sure the styles of this theme work with every plugin out there. It's inevitable that the styles won't work for all plugin option pages in your admin.
 
+= The theme doesn't look right =
+
+Are you using an old browser? This admin theme was designed to be used on the latest browsers - Chrome, Firefox, Safari Opera and IE9 and above. Support for IE8 and below is not guaranteed.
+
 == Screenshots ==
 
 1. Screenshot of the theme
