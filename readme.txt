@@ -37,18 +37,18 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Changelog ==
 
+= 1.1 = 
+
+* Made some minor improvements to the CSS
+
 = 1.0 =
 
 * Updated the theme to work with the new Wordpress 3.3 menu
 
-= 1.1 = 
-
-* Made some minor improvements to the CSS.
-
 == Upgrade Notice ==
-
-= 1.0 =
-This version is compatible with the new Wordpress 3.3 menu
 
 = 1.1 =
 This version has been tweaked slightly to improve the styles
+
+= 1.0 =
+This version is compatible with the new Wordpress 3.3 menu
