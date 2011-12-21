@@ -5,7 +5,7 @@ Plugin Name: Coffee Admin Theme
 Plugin URI: http://michaelgunner.co.uk
 Description: This theme gives the Wordpress dashboard a darker, sleeker look. This theme is only compatible with Wordpress 3.3.
 Author: Michael Gunner
-Version: 1.2.1
+Version: 1.2.2
 Author URI: http://michaelgunner.co.uk
 */
 
