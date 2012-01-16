@@ -33,7 +33,7 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Screenshots ==
 
-1. Screenshot of the theme
+1. Screenshot of the theme.
 
 == Changelog ==
 
