@@ -3,18 +3,18 @@ Contributors: brightonmike
 Tags: admin theme
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 
-Coffee Admin Theme is a Wordpress dashboard theme which adjusts the look and feel of the dashboard.
+Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and feel of the dashboard.
 
 == Description ==
 
-Coffee Admin Theme gives the dashboard a bolder look with sumptous dark tones and a textured background. 
+Coffee Admin Theme gives the dashboard a bolder look with sumptous dark tones and a textured background. The theme is fully compatible with the latest version of WordPress supporting the new fly-out menus. Because of this, the theme will not work as intended in older versions. 
 
 == Installation ==
 
 1. Upload the plugin to your plugins folder.
-2. Active the plugin via the Plugins menu in Wordpress.
+2. Active the plugin via the Plugins menu in WordPress.
 3. That's it! Enjoy!
 
 == Frequently Asked Questions ==
@@ -37,18 +37,26 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Changelog ==
 
+= 1.2.3 = 
+
+* Lightened the background
+
 = 1.1 = 
 
 * Made some minor improvements to the CSS
 
 = 1.0 =
 
-* Updated the theme to work with the new Wordpress 3.3 menu
+* Updated the theme to work with the new WordPress 3.3 menu
 
 == Upgrade Notice ==
+
+= 1.2.3 = 
+
+Lightened the background
 
 = 1.1 =
 This version has been tweaked slightly to improve the styles
 
 = 1.0 =
-This version is compatible with the new Wordpress 3.3 menu
+This version is compatible with the new WordPress 3.3 menu
