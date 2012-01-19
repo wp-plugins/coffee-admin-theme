@@ -225,3 +225,12 @@ body.admin-bar #wpcontent, body.admin-bar #adminmenu {
 .screen-per-page {
 	width:60px;
 }
+
+select#mm {
+	height:20px;
+}
+
+div.timestamp-wrap {
+	float:left;
+	margin:15px auto;
+}
