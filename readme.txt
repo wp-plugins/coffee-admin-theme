@@ -17,7 +17,8 @@ The plugin has options to switch between different themes, and I will be adding 
 
 1. Upload the plugin to your plugins folder.
 2. Active the plugin via the Plugins menu in WordPress.
-3. That's it! Enjoy!
+3. Make sure you activate the theme via the options page under "Settings > Coffee Theme Options"
+4. That's it! Enjoy!
 
 == Frequently Asked Questions ==
 
