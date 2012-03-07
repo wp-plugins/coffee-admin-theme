@@ -9,7 +9,9 @@ Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and fee
 
 == Description ==
 
-Coffee Admin Theme gives the dashboard a bolder look with sumptous dark tones and a textured background. The theme is fully compatible with the latest version of WordPress supporting the new fly-out menus. Because of this, the theme will not work as intended in older versions. 
+Coffee Admin Theme gives the dashboard a bolder look with sumptous dark tones and a textured background. The theme is fully compatible with the latest version of WordPress supporting the new fly-out menus. Because of this, the theme will not work as intended in older versions.
+
+The plugin has options to switch between different themes, and I will be adding more themes over time.
 
 == Installation ==
 
