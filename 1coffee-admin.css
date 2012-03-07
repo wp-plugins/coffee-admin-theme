@@ -1,0 +1,236 @@
+/*
+
+This Admin theme was written by Michael Gunner
+Version 1.0
+
+You're free to change whatever you want below but please keep this notice.
+
+
+ */
+
+#wpwrap {
+	background: url(images/diagonal-noise.png)repeat;
+}
+
+#adminmenuback,#adminmenuwrap {
+	border-color: #555;
+	background:#444;
+	border-width: 0 13px 10px 0;
+}
+
+#post-body {
+	background: transparent;
+}
+
+#adminmenu li.wp-menu-separator {
+	padding: 8px;
+	background: #555;
+	border-color: #444;
+}
+
+#adminmenu div.separator {
+	border-color: #555;
+}
+
+#adminmenu a.menu-top {
+	padding: 8px 5px;
+}
+
+a,#adminmenu a,#poststuff #edButtonPreview,#poststuff #edButtonHTML,#the-comment-list p.comment-author strong a,#media-upload a.del-link,#media-items a.delete,.plugins a.delete,.ui-tabs-nav a {
+	color: #222;
+}
+
+#adminmenu .wp-submenu a {
+	color: #eee;
+	padding: 8px;
+}
+
+#adminmenu .wp-submenu li:hover {
+	background: #168E4C;
+}
+
+#adminmenu .wp-submenu li.current,#adminmenu .wp-submenu li.current a,#adminmenu .wp-submenu li.current a:hover {
+	color: #fff;
+}
+
+#adminmenu .wp-submenu ul,#adminmenu a.menu-top,.folded #adminmenu li.menu-top,#adminmenu .wp-submenu .wp-submenu-head {
+	background-color: #555;
+	color: #eee;
+	border-top-color: #333;
+	border-bottom-color: #666;
+}
+
+#adminmenu li.wp-menu-open {
+	border-color: #666;
+}
+
+.button,.button-secondary,.submit input,input[type="button"],input[type="submit"],a.button,a.button-primary,a.button-secondary {
+	padding: 12px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.button:hover,.button-secondary:hover,.submit input:hover,input[type="button"]:hover,input[type="submit"]:hover {
+	background: #249392;
+	color: #eee;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+}
+
+input.button-primary,button.button-primary,a.button-primary {
+	background: #249392;
+	border-color: #249392;
+	color:#eee;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+}
+
+input.button-primary:hover,button.button-primary:hover,a.button-primary:hover,#adminmenu .wp-submenu li:hover,#adminmenu .wp-submenu a:hover {
+	background: #249392 !important;
+	border-color: #1f6261 !important;
+	color: #fff !important;
+}
+
+#wpcontent select {
+	height: 42px;
+}
+
+.tablenav {
+	height: 60px;
+}
+
+textarea,input[type="text"],input[type="password"],input[type="file"],input[type="button"],input[type="submit"],input[type="reset"],select {
+	padding: 12px;
+}
+
+.widget,#widget-list .widget-top,.postbox,#titlediv,#poststuff .postarea,.stuffbox {
+	border-color: #d0d0d0;
+	border-width: 3px;
+}
+
+.widget .widget-top,.postbox h3,.stuffbox h3 {
+	border-bottom-color: #666;
+}
+
+.postbox h3,.stuffbox h3 {
+	border-bottom-width: 4px;
+}
+
+.widget .widget-top {
+	border-bottom-width: 1px;
+}
+
+.widget:hover, #widget-list .widget-top:hover,.widget:active, #widget-list .widget-top:active,.widget:focus, #widget-list .widget-top:focus {
+	border-color:#249392;
+}
+
+.postbox h3 {
+	color: #333;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu li.current a.menu-top,.folded #adminmenu li.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-menu-arrow,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	background: #249392;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu li.current a.menu-top,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	border-top-color: #249392;
+	border-bottom-color: #249392;
+	border-width: 3px 0 3px;
+}
+
+#adminmenu .wp-menu-arrow div,#adminmenu li.wp-not-current-submenu .wp-menu-arrow div,#adminmenu li.menu-top:hover>a,#adminmenu li.menu-top.focused>a,#adminmenu li.menu-top>a:focus{
+	background-color:#249392;
+	background: rgb(36,147,146);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI0OTM5MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyNDkzOTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(36,147,146,1) 0%, rgba(36,147,146,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(36,147,146,1)), color-stop(100%,rgba(36,147,146,1)));
+	background: -webkit-linear-gradient(top,  rgba(36,147,146,1) 0%,rgba(36,147,146,1) 100%);
+	background: -o-linear-gradient(top,  rgba(36,147,146,1) 0%,rgba(36,147,146,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(36,147,146,1) 0%,rgba(36,147,146,1) 100%);
+	background: linear-gradient(top,  rgba(36,147,146,1) 0%,rgba(36,147,146,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#249392', endColorstr='#249392',GradientType=0 );
+}
+
+#adminmenu li,#collapse-button {
+	background: #444;
+}
+
+#wpcontent,#footer {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.button,.submit input,.button-secondary {
+	background: #eee;
+	border-color: #ccc;
+	color:#222;
+}
+
+#adminmenu .wp-submenu-wrap, #adminmenu .wp-submenu ul {
+	border-color:#222;
+}
+
+#adminmenu li .wp-submenu-wrap {
+	border-width:1px;
+	border-style:solid;
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+	border-color:#444;
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	border-top-color:#444;
+	border-bottom-color:#666;
+	background:#249392;
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	height:34px;
+}
+
+#adminmenu li.menu-top:hover > a, #adminmenu li.menu-top.focused > a, #adminmenu li.menu-top > a:focus {
+	text-shadow:0 1px 0 rgba(29, 120, 119, 0.4);
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+	border-left:1px solid #222;
+	border-bottom:1px solid #222;
+}
+
+#adminmenu .wp-menu-arrow div {
+	border-left:2px solid #555;
+	border-bottom:1px solid #555;
+}
+
+#wpadminbar .quicklinks a, #wpadminbar .quicklinks .ab-empty-item, #wpadminbar .shortlink-input {
+	padding:8px 22px;
+}
+
+#wpadminbar {
+	height:45px;
+}
+
+body.admin-bar #wpcontent, body.admin-bar #adminmenu {
+	padding-top:45px;
+}
+
+#poststuff #titlewrap {
+	margin-bottom:30px;
+}
+
+.screen-per-page {
+	width:60px;
+}
+
+select#mm {
+	height:20px;
+}
+
+div.timestamp-wrap {
+	float:left;
+	margin:15px auto;
+}

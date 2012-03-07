@@ -1,0 +1,331 @@
+/*
+
+This Admin theme was written by Michael Gunner
+Version 1.0
+
+You're free to change whatever you want below but please keep this notice.
+
+
+ */
+
+#wpwrap {
+	background: url(images/pinstripe.png)repeat;
+}
+
+#adminmenuback,#adminmenuwrap {
+	border-color: #eee;
+	background:#fff;
+	border-width: 0 13px 10px 0;
+}
+
+#post-body {
+	background: transparent;
+}
+
+#adminmenu li.wp-menu-separator {
+	padding: 8px;
+	background: #eee;
+	border-color: #fff;
+}
+
+#adminmenu div.separator {
+	border-color: #eee;
+}
+
+#adminmenu a.menu-top {
+	padding: 8px 5px;
+}
+
+a,#adminmenu a,#poststuff #edButtonPreview,#poststuff #edButtonHTML,#the-comment-list p.comment-author strong a,#media-upload a.del-link,#media-items a.delete,.plugins a.delete,.ui-tabs-nav a {
+	color: #222;
+}
+
+#adminmenu .wp-submenu a {
+	color: #555;
+	padding: 8px;
+}
+
+#adminmenu .wp-submenu li:hover {
+	background: #a81717;
+}
+
+#adminmenu .wp-submenu li.current,#adminmenu .wp-submenu li.current a,#adminmenu .wp-submenu li.current a:hover {
+	color: #222;
+	text-shadow:none;
+}
+
+#adminmenu .wp-submenu ul,#adminmenu a.menu-top,.folded #adminmenu li.menu-top,#adminmenu .wp-submenu .wp-submenu-head {
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 1%, #f1f1f1 50%, #f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#e8e8e8), color-stop(50%,#f1f1f1), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+	color: #222;
+	border-top-color: #ddd;
+	border-bottom-color: #fff;
+}
+
+#adminmenu li.wp-menu-open {
+	border-color: #fff;
+}
+
+.button,.button-secondary,.submit input,input[type="button"],input[type="submit"],a.button,a.button-primary,a.button-secondary {
+	padding: 12px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.button:hover,.button-secondary:hover,.submit input:hover,input[type="button"]:hover,input[type="submit"]:hover {
+	background: #222;
+	color: #eee;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+}
+
+input.button-primary,button.button-primary,a.button-primary {
+	background: #fff;
+	border-color: #ddd;
+	color:#000;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+}
+
+input.button-primary:hover,button.button-primary:hover,a.button-primary:hover{
+	background: #222 !important;
+	border-color: #000 !important;
+	color: #fff !important;
+	text-shadow:none!important;
+}
+
+#adminmenu .wp-submenu li:hover,#adminmenu .wp-submenu a:hover  {
+	background: #fff !important;
+	border-color: #ddd !important;
+	color: #222 !important;
+	text-shadow:none!important;
+}
+
+#wpcontent select {
+	height: 42px;
+}
+
+.tablenav {
+	height: 60px;
+}
+
+textarea,input[type="text"],input[type="password"],input[type="file"],input[type="button"],input[type="submit"],input[type="reset"],select {
+	padding: 12px;
+}
+
+.widget,#widget-list .widget-top,.postbox,#titlediv,#poststuff .postarea,.stuffbox {
+	border-color: #ddd;
+	border-width: 1px;
+}
+
+.postbox h3,.stuffbox h3 {
+	border-bottom-width: 4px;
+}
+
+.widget .widget-top {
+	border-bottom-width: 1px;
+}
+
+.widget:hover, #widget-list .widget-top:hover,.widget:active, #widget-list .widget-top:active,.widget:focus, #widget-list .widget-top:focus {
+	border-color:#e8e8e8;
+}
+
+.postbox h3 {
+	color: #333;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu li.current a.menu-top,.folded #adminmenu li.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-menu-arrow,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 1%, #f1f1f1 50%, #f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#e8e8e8), color-stop(50%,#f1f1f1), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+	color:#444;
+	text-shadow:none;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover,#adminmenu li.current a.menu-top:hover,.folded #adminmenu li.wp-has-current-submenu:hover,.folded #adminmenu li.current.menu-top:hover,#adminmenu .wp-menu-arrow:hover,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head:hover {
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 1%, #f1f1f1 50%, #f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#e8e8e8), color-stop(50%,#f1f1f1), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+	color:#000;
+	text-shadow:none;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,#adminmenu li.current a.menu-top,#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head {
+	border-top-color: #ddd;
+	border-bottom-color: #ddd;
+	border-width: 3px 0 3px;
+	text-shadow:0 -1px 0 white;
+	color:#222;
+}
+
+#adminmenu .wp-menu-arrow div,#adminmenu li.wp-not-current-submenu .wp-menu-arrow div,#adminmenu li.menu-top:hover>a,#adminmenu li.menu-top.focused>a,#adminmenu li.menu-top>a:focus{
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 1%, #f1f1f1 50%, #f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#e8e8e8), color-stop(50%,#f1f1f1), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+	color:#000;
+	text-shadow:none;
+}
+
+#adminmenu li,#collapse-button {
+	background: #fff;
+}
+
+
+#wpcontent,#footer {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.button,.submit input,.button-secondary {
+	background: #eee;
+	border-color: #ccc;
+	color:#222;
+}
+
+#adminmenu .wp-submenu-wrap, #adminmenu .wp-submenu ul {
+	border-color:#ddd;
+}
+
+#adminmenu li .wp-submenu-wrap {
+	border-width:1px;
+	border-style:solid;
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+	border-color:#fff;
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	border-top-color:#fff;
+	border-bottom-color:#eee;
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e8e8e8 1%, #f1f1f1 50%, #f6f6f6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(1%,#e8e8e8), color-stop(50%,#f1f1f1), color-stop(100%,#f6f6f6));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	background: linear-gradient(top,  #ffffff 0%,#e8e8e8 1%,#f1f1f1 50%,#f6f6f6 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+	height:34px;
+}
+
+#adminmenu li.menu-top:hover > a, #adminmenu li.menu-top.focused > a, #adminmenu li.menu-top > a:focus {
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+	border-left:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+
+#adminmenu .wp-menu-arrow div {
+	border-left:2px solid #eee;
+	border-bottom:1px solid #eee;
+}
+
+#wpadminbar .quicklinks a, #wpadminbar .quicklinks .ab-empty-item, #wpadminbar .shortlink-input {
+	padding:8px 22px;
+}
+
+#wpadminbar {
+	height:45px;
+	background: #e2e2e2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjZWNlY2VjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzklIiBzdG9wLWNvbG9yPSIjZjdmN2Y3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5YzljOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #e2e2e2 0%, #ececec 6%, #f7f7f7 79%, #c9c9c9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(6%,#ececec), color-stop(79%,#f7f7f7), color-stop(100%,#c9c9c9));
+	background: -webkit-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: -o-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: -ms-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#c9c9c9',GradientType=0 );
+}
+
+#wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar .ab-top-menu > li > .ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,#wpadminbar .ab-top-secondary {
+	background: #e2e2e2;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjZWNlY2VjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzklIiBzdG9wLWNvbG9yPSIjZjdmN2Y3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M5YzljOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #e2e2e2 0%, #ececec 6%, #f7f7f7 79%, #c9c9c9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(6%,#ececec), color-stop(79%,#f7f7f7), color-stop(100%,#c9c9c9));
+	background: -webkit-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: -o-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: -ms-linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	background: linear-gradient(top,  #e2e2e2 0%,#ececec 6%,#f7f7f7 79%,#c9c9c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#c9c9c9',GradientType=0 );
+}
+
+#wpadminbar * {
+	text-shadow:#eee 0 -1px 0;
+	color:#222;
+}
+
+#wpadminbar .quicklinks > ul > li {
+	border-right:1px solid #ddd;
+}
+
+#wpadminbar .quicklinks > ul > li > a, #wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-right:1px solid #fff;
+}
+
+#wpadminbar .quicklinks .ab-top-secondary > li > a, #wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item {
+	border-left:1px solid #fff;
+}
+
+#wpadminbar .quicklinks > ul > li > a:hover, #wpadminbar .quicklinks > ul > li > .ab-empty-item:hover {
+	color:#000!important;
+}
+
+#wpadminbar .quicklinks .ab-top-secondary > li {
+	border-left:1px solid #fff;
+}
+
+body.admin-bar #wpcontent, body.admin-bar #adminmenu {
+	padding-top:45px;
+}
+
+#poststuff #titlewrap {
+	margin-bottom:30px;
+}
+
+.screen-per-page {
+	width:60px;
+}
+
+select#mm {
+	height:20px;
+}
+
+div.timestamp-wrap {
+	float:left;
+	margin:15px auto;
+}
