@@ -54,7 +54,6 @@ function dashtheme_sampleoptions_do_page() {
 						  <option value="coffee-admin">Coffee Green</option>
 						  <option value="coffee-admin-red">Coffee Red</option>
 						  <option value="coffee-admin-white">Coffee White</option>
-						  <option value="audi">Audi</option>
 						</select>	</td>
 				</tr>				
 			</table>
