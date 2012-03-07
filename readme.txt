@@ -3,7 +3,7 @@ Contributors: brightonmike
 Tags: admin theme
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.2.3
+Stable tag: 1.3
 
 Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and feel of the dashboard.
 
@@ -37,6 +37,10 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Changelog ==
 
+= 1.3 = 
+
+Added options page with option to change colour schemes. Different styles and themes will be added.
+
 = 1.2.3 = 
 
 * Lightened the background
@@ -50,6 +54,10 @@ Are you using an old browser? This admin theme was designed to be used on the la
 * Updated the theme to work with the new WordPress 3.3 menu
 
 == Upgrade Notice ==
+
+= 1.3 = 
+
+Added options page with option to change colour schemes. Different styles and themes will be added.
 
 = 1.2.3 = 
 
