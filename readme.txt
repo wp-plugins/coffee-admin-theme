@@ -2,8 +2,8 @@
 Contributors: brightonmike
 Tags: admin theme
 Requires at least: 3.3
-Tested up to: 3.3
-Stable tag: 1.3
+Tested up to: 3.3.2
+Stable tag: 1.4
 
 Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and feel of the dashboard.
 
@@ -12,6 +12,8 @@ Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and fee
 Coffee Admin Theme gives the dashboard a bolder look with sumptous dark tones and a textured background. The theme is fully compatible with the latest version of WordPress supporting the new fly-out menus. Because of this, the theme will not work as intended in older versions.
 
 The plugin has options to switch between different themes, and I will be adding more themes over time.
+
+You also get a great selection of Google Web Fonts to choose, further enhancing your dashboard experience.
 
 == Installation ==
 
@@ -40,6 +42,10 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Changelog ==
 
+= 1.4 =
+
+Added Custom Google Fonts. Made some tweaks to fix some issues.
+
 = 1.3 = 
 
 Added options page with option to change colour schemes. Different styles and themes will be added.
@@ -57,6 +63,10 @@ Added options page with option to change colour schemes. Different styles and th
 * Updated the theme to work with the new WordPress 3.3 menu
 
 == Upgrade Notice ==
+
+= 1.4 =
+
+Added Custom Google Fonts - you can now change the font of your dashboard. Made some tweaks to fix some issues. New theme! Piano Black - a gorgeous minimalist theme that makes the menu look dark and sumptuous.
 
 = 1.3 = 
 

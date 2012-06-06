@@ -8,6 +8,13 @@ You're free to change whatever you want below but please keep this notice.
 
  */
 
+
+
+
+a:hover, a:active, a:focus {
+    color: #000;
+}  
+ 
 #wpwrap {
 	background: url(images/diagonal-noise.png)repeat;
 }
@@ -37,7 +44,7 @@ You're free to change whatever you want below but please keep this notice.
 }
 
 a,#adminmenu a,#poststuff #edButtonPreview,#poststuff #edButtonHTML,#the-comment-list p.comment-author strong a,#media-upload a.del-link,#media-items a.delete,.plugins a.delete,.ui-tabs-nav a {
-	color: #222;
+	color: #333;
 }
 
 #adminmenu .wp-submenu a {
@@ -50,6 +57,14 @@ a,#adminmenu a,#poststuff #edButtonPreview,#poststuff #edButtonHTML,#the-comment
 }
 
 #adminmenu .wp-submenu li.current,#adminmenu .wp-submenu li.current a,#adminmenu .wp-submenu li.current a:hover {
+	color: #fff;
+}
+
+#adminmenu a:hover, #adminmenu li.menu-top > a:focus, #adminmenu ul.wp-submenu a:hover {
+	color:#fff;
+}
+
+#adminmenu .wp-submenu li.current:active,#adminmenu .wp-submenu li.current a:active,#adminmenu .wp-submenu li.current a:active {
 	color: #fff;
 }
 
@@ -96,6 +111,7 @@ input.button-primary:hover,button.button-primary:hover,a.button-primary:hover,#a
 
 #wpcontent select {
 	height: 42px;
+	vertical-align:middle;
 }
 
 .tablenav {
@@ -233,4 +249,8 @@ select#mm {
 div.timestamp-wrap {
 	float:left;
 	margin:15px auto;
+}
+
+.form-table th, .form-wrap label {
+	line-height: 40px;
 }

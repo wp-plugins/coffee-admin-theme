@@ -8,6 +8,11 @@ You're free to change whatever you want below but please keep this notice.
 
  */
 
+
+a:hover, a:active, a:focus {
+    color: #000;
+} 
+ 
 #wpwrap {
 	background: url(images/pinstripe.png)repeat;
 }
@@ -96,6 +101,8 @@ input.button-primary,button.button-primary,a.button-primary {
 	-webkit-text-shadow: none;
 	-moz-text-shadow: none;
 }
+
+/* Use of important is sometimes unavoidable */
 
 input.button-primary:hover,button.button-primary:hover,a.button-primary:hover{
 	background: #222 !important;
@@ -329,3 +336,4 @@ div.timestamp-wrap {
 	float:left;
 	margin:15px auto;
 }
+

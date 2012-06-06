@@ -8,6 +8,10 @@ You're free to change whatever you want below but please keep this notice.
 
  */
 
+
+a:hover, a:active, a:focus {
+    color: #000;
+} 
 #wpwrap {
 	background: url(images/diagonal-noise.png)repeat;
 }
