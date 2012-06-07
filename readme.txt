@@ -40,6 +40,8 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 1. Screenshot of the theme.
 
+2. Screenshot of the "Piano" theme, showing custom fonts and the custom icons, which will be released soon.
+
 == Changelog ==
 
 = 1.4 =
