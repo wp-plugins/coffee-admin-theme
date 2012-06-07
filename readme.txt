@@ -5,7 +5,7 @@ Requires at least: 3.3
 Tested up to: 3.3.2
 Stable tag: 1.4
 
-Coffee Admin Theme is a WordPress dashboard theme which adjusts the look and feel of the dashboard.
+Coffee Admin Theme is a WordPress dashboard plugin which adjusts the look and feel of the dashboard, via custom themes and fonts.
 
 == Description ==
 
