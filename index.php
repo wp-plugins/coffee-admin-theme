@@ -115,10 +115,7 @@ function dashtheme_themeoptions_do_page() {
 // Sanitize and validate input. Accepts an array, return a sanitized array.
 function dashtheme_themeoptions_validate($input) {
 	// Our first value is either 0 or 1
-	$input['option1'] = ( $input['option1'] == 1 ? 1 : 0 );
-	
-	// Say our second option must be safe text with no HTML tags
-	$input['sometext'] =  wp_filter_nohtml_kses($input['sometext']);
+	$input['option1'] = ( $input['option1'] == 1 ? 1 : 0 );	
 	
 	$input['themeselect'] =  $input['themeselect'];
 	
