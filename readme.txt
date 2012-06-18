@@ -3,7 +3,7 @@ Contributors: brightonmike
 Tags: admin theme
 Requires at least: 3.3
 Tested up to: 3.3.2
-Stable tag: 1.4
+Stable tag: 1.4.1
 
 Coffee Admin Theme is a WordPress dashboard plugin which adjusts the look and feel of the dashboard, via custom themes and fonts.
 
@@ -44,6 +44,10 @@ Are you using an old browser? This admin theme was designed to be used on the la
 
 == Changelog ==
 
+= 1.4.1 =
+
+Fixed a couple of errors. Nothing major.
+
 = 1.4 =
 
 Added Custom Google Fonts. Made some tweaks to fix some issues.
@@ -65,6 +69,10 @@ Added options page with option to change colour schemes. Different styles and th
 * Updated the theme to work with the new WordPress 3.3 menu
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+
+Not a major update, just a few code error fixes.
 
 = 1.4 =
 

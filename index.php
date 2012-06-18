@@ -5,7 +5,7 @@ Plugin Name: Coffee Admin Theme
 Plugin URI: http://michaelgunner.co.uk
 Description: This theme gives the Wordpress dashboard a darker, sleeker look. This theme is only compatible with Wordpress 3.3.
 Author: Michael Gunner
-Version: 1.4
+Version: 1.4.1
 Author URI: http://michaelgunner.co.uk
 */
 
@@ -82,7 +82,8 @@ function dashtheme_themeoptions_do_page() {
 				
 						<td>						
 						<select name="dashtheme_theme[fontselect]" id="<?php echo $options['fontselect']; ?>">
-						  <option value="Default" <?php if ( $options['fontselect'] == 'Default' ) echo 'selected="selected"'; ?>>Default</option>
+						  <option value="Default,Default" <?php if ( $options['fontselect'] == 'Default,Default' ) echo 'selected="selected"'; ?>>Default</option>						
+						  <option value="Signika,Signika" <?php if ( $options['fontselect'] == 'Signika,Signika' ) echo 'selected="selected"'; ?>>Signika</option>
 						  <option value="Open+Sans,Open Sans" <?php if ( $options['fontselect'] == 'Open+Sans,Open Sans' ) echo 'selected="selected"'; ?>>Open Sans</option>
 						  <option value="Questrial,Questrial" <?php if ( $options['fontselect'] == 'Questrial,Questrial' ) echo 'selected="selected"'; ?>>Questrial</option>
 						  <option value="Oxygen,Oxygen" <?php if ( $options['fontselect'] == 'Oxygen,Oxygen' ) echo 'selected="selected"'; ?>>Oxygen</option>
